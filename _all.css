@@ -291,6 +291,44 @@ input.button.rounded:hover {
 }
 
 
+/* Cars screen */
+
+.GlobalLeft .fixedHeader:first {
+    display: none;
+}
+
+table.serviceImageWrap td,
+table.serviceImageWrap.carRentalCompany td {
+    background: #fff;
+}
+
+.contentWrap, .detailsServiceItem {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.totalPriceWrapper .sectionTitle,
+.totalPriceWrapper .subPrice {
+    float: none !important;
+    display: block;
+    text-align: center;
+}
+
+.totalPriceWrapper span {
+    padding: 4px;
+    font-weight: 600;
+}
+
+.subPrice {
+    text-decoration: none;
+}
+
+.subPrice .currency {
+    padding: 0 4px;
+}
+
+
 /* Passenger screen */
 
 .customersList .TextBox, .customersList .textBox.mandatory.nullText, .customersList .textBox.nullText, .customersList .textBox {
