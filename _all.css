@@ -147,7 +147,7 @@ ul.travelFileProgressBar li.icon-slider.selected {
     display: none;
 }
 
-.sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title {
+.summary .title, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
