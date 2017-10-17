@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_light_eot.eot");
+    src: url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_light_eot.eot?") format('embedded-opentype'), url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_light_otf.otf") format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+     src: url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_semi_eot.eot");
+    src: url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_semi_eot.eot?") format('embedded-opentype'), url("https://img.virginaustralia.com/cs/groups/internetasset/@wc/documents/webasset/~edisp/css_font_montserrat_semi_otf.otf") format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+}
+
+body, html, div, a, table, tr, td, span, label, th, h1, h2, h3, h4, h5, input, select, pre, legend, button, input[type=submit], input[type=text], input[type=button], p {
+    font-family: "Montserrat" !important;
+    font-weight: 300;
+}
+
+body {
+    background-image: none !important;
+}
+
+
+/* Header */
+
+.fixedHeader {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+ul.travelFileProgressBar,
+ul.bookingProgressBar,
+.fixedHeader {
+    display: none;
+}
+
+ul.travelFileProgressBar .progressBarTitle.selected {
+    color: #52585d;
+}
+
+ul.travelFileProgressBar li.icon-slider.selected {
+    background: #52585d;
+}
+
+.headerBar {
+    background: none;
+}
+
+.headerServices ul.nav-main {
+    background: none;
+    position: relative;
+    top: -70px;
+}
+
+.headerServices {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.headerServices ul.nav-main {
+    display: inline-block;
+    float: none;
+}
+
+
+.headerServices ul.nav-main li.separator {
+    display: none;
+}
+
+.headerServices ul.nav-main li input {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #52585d;
+}
+
+.headerServices ul.nav-main li input:hover {
+    color: #d6083b;
+}
+
+
+/* Selected flights */
+
+[data-ui-view="searchsummary"],
+[data-ui-view="searchsummary"] #topPage {
+    float: none;
+    width: 100%;
+}
+
+[data-ui-view="searchsummary"] .summary {
+    float: none;
+    padding: 40px 20px 20px;
+    color: #512698;
+}
+
+[data-ui-view="searchsummary"] .button.rounded {
+    position: relative;
+    top: -36px;
+    background: #512698;
+}
+
+[data-ui-view="searchsummary"],
+#abovesearch2 {
+    background: rgba(81,33,152,0.1);
+    padding: 0 60px;
+    border: 1px rgba(81,33,152,0.2) solid;
+}
+
+[data-ui-view="searchsummary"] {
+    padding-bottom: 25px;
+}
+
+#abovesearch2 {
+    border-top: 0;
+    padding-bottom: 50px;
+}
+
+.flightWrapper,
+.calendarWrapper {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.flightWrapper {
+    padding: 18px 15px 15px 20px;
+    border: none;
+    width: 430px;
+    height: 160px;
+    border: 1px rgba(81,33,152,0.2) solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #fff;
+}
+
+.flightWrapper .dfa {
+    padding-top: 0;
+}
+
+.flightBookmark {
+    display: none;
+}
+
+.sectionHeader,
+.summary .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    color: #512698;
+}
+
+
+.calendar {
+    height: 90px;
+    width: 90px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-color: rgba(81,33,152,0.2);
+}
+
+.calendar .month {
+    text-transform: uppercase;
+    border: 0;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #512698;
+    background: rgba(81,33,152,0.1);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+}
+
+.calendar .day {
+    padding: 6px 0;
+    font-size: 2.65em;
+    font-weight: 300;
+    color: #512698;
+}
+
+.calendar .weekDay {
+    font-weight: 600;
+    color: #512698;
+}
+
+.flightWrapper .hour {
+    font-size: 2em;
+}
+
+.flightWrapper .hourDirect {
+    padding-top: 3px;
+    font-size: 1.3em;
+}
+
+.flightWrapper .timeWrapper .icon-keyboard_arrow_right {
+    font-size: 1.5rem !important;
+    line-height: 2.2rem !important;
+}
+
+.supplierLogo {
+    float: right !important;
+}
+
+
+/* Results */
+
+.mainContainer,
+.sideBar {
+    margin-top: 40px;
+}
+
+.headLineTitle {
+    font-style: normal;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+
+
+/* Buttons */
+
+button.button.rounded,
+input.button.rounded {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 0;
+    padding: 0 40px;
+    height: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button.button.rounded:hover,
+input.button.rounded:hover {
+    background: #36424a;
+}
+
+
+
+/* Sidebar */
+
+.search-bar .filters-name,
+.refine-results,
+.destination-dates {
+    padding-top: 25px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.refine-results {
+    padding-top: 3px;
+}
+
+.search-bar .separate-line {
+    border-bottom: 1px solid #e5e6e7;
+}
+
+.search-bar .separate-line.bold {
+    border-bottom: 0px;
+}
+
+
+/* Hotel details screen */
+
+.container.hotel-details .flightWrapper {
+    display: none;
+}
