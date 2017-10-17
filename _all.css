@@ -32,6 +32,9 @@ body {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
 }
 
 ul.travelFileProgressBar,
