@@ -286,3 +286,10 @@ input.button.rounded:hover {
 .container.hotel-details .flightWrapper {
     display: none;
 }
+
+
+/* Passenger screen */
+
+.customersList .TextBox, .customersList .textBox.mandatory.nullText, .customersList .textBox.nullText, .customersList .textBox {
+    border-radius: none !important;    
+}
