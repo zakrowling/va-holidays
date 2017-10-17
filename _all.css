@@ -150,7 +150,7 @@ ul.travelFileProgressBar li.icon-slider.selected {
     display: none;
 }
 
-.summary .title, .activitySummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title {
+.summary .title, .activitySummaryTitle, .bookingSummary .bookingSummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
