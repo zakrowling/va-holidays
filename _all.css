@@ -296,3 +296,7 @@ input.button.rounded:hover {
 .customersList .TextBox, .customersList .textBox.mandatory.nullText, .customersList .textBox.nullText, .customersList .textBox {
     border-radius: none !important;    
 }
+
+#ctl00_ResultsContent_btnBack {
+    display: block;   
+}
