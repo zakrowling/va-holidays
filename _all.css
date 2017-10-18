@@ -474,3 +474,25 @@ div.comboBox.nullText input,
 #PaymentOptionsNote {
     width: 920px;
 }
+
+.ServicesInfo .sideBar {
+    margin-top: 75px;
+}
+
+.ServicesInfo #ctl00_GeneralButtonsContent_panButtons,
+.serviceLinksWrapper {
+    display: none;
+}
+
+
+/* Search screen */
+
+.site.content.serviceContent #abovesearch2 {
+    padding: 0;
+}
+
+.site.content.serviceContent #abovesearch2,
+.site.content.serviceContent [data-ui-view="searchsummary"] {
+    background: transparent;
+    border: none;
+}
