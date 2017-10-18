@@ -23,6 +23,7 @@ body, html, div, a, table, tr, td, span, label, th, h1, h2, h3, h4, h5, input, s
 
 body, body.bodyBackground {
     background-image: none !important;
+    background-color: #fff !important;
 }
 
 
