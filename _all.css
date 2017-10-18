@@ -291,7 +291,9 @@ button.button.rounded,
 input.button.rounded,
 input.button.arrowNext,
 .hotel-price-levels input.button,
-.hotel-price-levels table input.button {
+.hotel-price-levels table input.button,
+input.button.large.confirm,
+input.button.large.cancel {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -391,4 +393,46 @@ table.serviceImageWrap.carRentalCompany td {
 
 #ctl00_ResultsContent_btnBack {
     display: block;   
+}
+
+#divResults .paddingTop20 {
+    padding-top: 10px !important;
+}
+
+.dateSelector.mandatory input.nullText,
+.dateSelector.mandatory input, 
+.dateSelector, .dateSelector input.nullText, 
+.dpServiceDate .dateSelector, 
+.G2DatePicker input.G2DatePicker_TextBox, 
+.G2DatePicker .G2DatePicker_TextBoxCell .G2DatePicker_TextBox,
+.textBox.mandatory.nullText,
+.textBox.mandatory, .MandatoryTextBox,
+.MandatoryTextBoxMultiLine,
+.TextBox,
+.textBox.mandatory.nullText,
+.textBox.nullText,
+.textBox,
+.rangeSelector,
+.textBoxMultiLine,
+div.comboBox.mandatory input,
+div.comboBox.mandatory.nullText input,
+div.comboBox.nullText input,
+.comboBox,
+.comboBox_Popup {
+    font-style: normal;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-left-width: 1px !important;
+    border-color: #333 !important;
+}
+
+.keepMePosted {
+    background: transparent;
+    border: 0;
+    width: 370px;
+}
+
+.keepMePosted label {
+    font-size: 10px;
 }
