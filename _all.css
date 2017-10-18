@@ -176,7 +176,7 @@ ul.travelFileProgressBar li.icon-slider.selected {
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 1.4em;
-    color: #512698;
+    color: #512698 !important;
 }
 
 
