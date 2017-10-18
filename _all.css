@@ -171,7 +171,7 @@ ul.travelFileProgressBar li.icon-slider.selected {
     display: none;
 }
 
-.summary .title, .activitySummaryTitle, .bookingSummary .bookingSummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title {
+.summary .title, .activitySummaryTitle, .bookingSummary .bookingSummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title, .headerDetails .subHeader {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
@@ -435,4 +435,8 @@ div.comboBox.nullText input,
 
 .keepMePosted label {
     font-size: 10px;
+}
+
+.headerDetails, .headerClass .headerBarShadow {
+    background: transparent !important;
 }
