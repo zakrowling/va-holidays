@@ -272,13 +272,26 @@ ul.travelFileProgressBar li.icon-slider.selected {
     background: transparent !important;
 }
 
+.hotel-price-levels td.price,
+.hotel-price-levels td.displayTotalPrice,
+.hotel-price-levels .price-breakdown div.avgPrice.textAlignCenter,
+.table > thead:first-child > tr:first-child > th {
+    text-align: center !important;
+}
+
+.hotel-price-levels .price .input-radio input[type=radio],
+.hotel-price-levels .price span.input-radio {
+    float: none !important;
+}
+
 
 /* Buttons */
 
 button.button.rounded,
 input.button.rounded,
 input.button.arrowNext,
-.hotel-price-levels input.button {
+.hotel-price-levels input.button,
+.hotel-price-levels table input.button {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
