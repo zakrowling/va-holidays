@@ -441,3 +441,36 @@ div.comboBox.nullText input,
 .headerDetails, .headerClass .headerBarShadow {
     background: transparent !important;
 }
+
+
+/* Payment screen */
+
+.headerDetails, .headerClass .headerBarShadow {
+    background: transparent !important;
+}
+
+.bookingDetails .hour {
+    font-size: 14px;
+}
+
+.bookingDetails .title, .bookingDetails .titleBold {
+    font
+}
+
+.timeWrapper .title.width130 {
+    width: 65px;
+}
+
+.bookingDetails .icon-keyboard_arrow_right {
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.bookingDetails .itemSaperator {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+#PaymentOptionsNote {
+    width: 920px;
+}
