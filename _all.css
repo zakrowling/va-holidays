@@ -37,6 +37,27 @@ body {
     -webkit-opacity: 0;
 }
 
+.fixed-header {
+    background-color: #512698;
+}
+
+.fixed-header button {
+    color: #512698;
+    text-transform: uppercase;
+    background: #fff;
+    border: 0;
+}
+
+.fixed-header button:hover {
+    background: #36424a;
+}
+
+.fixed-header button span {
+    font-size: 12px !important;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
 ul.travelFileProgressBar,
 ul.bookingProgressBar,
 .fixedHeader {
