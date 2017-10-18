@@ -277,7 +277,8 @@ ul.travelFileProgressBar li.icon-slider.selected {
 
 button.button.rounded,
 input.button.rounded,
-input.button.arrowNext {
+input.button.arrowNext,
+.hotel-price-levels input.button {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
