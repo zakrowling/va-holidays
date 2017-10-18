@@ -21,7 +21,7 @@ body, html, div, a, table, tr, td, span, label, th, h1, h2, h3, h4, h5, input, s
     font-weight: 300;
 }
 
-body. body.bodyBackground {
+body, body.bodyBackground {
     background-image: none !important;
 }
 
@@ -171,7 +171,7 @@ ul.travelFileProgressBar li.icon-slider.selected {
     display: none;
 }
 
-.summary .title, .activitySummaryTitle, .bookingSummary .bookingSummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title, .headerDetails .subHeader {
+.summary .title, .activitySummaryTitle, .bookingSummary .bookingSummaryTitle, .sectionHeader, .customersList .title, .transportDetails .title, .customerRemark .title, .bookingSummary .title, .arrivalFlight .title, .headerDetails .subHeader div {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
